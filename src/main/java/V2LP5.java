@@ -167,14 +167,12 @@ public class V2LP5 extends javax.swing.JFrame {
 
     private void btnExibirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnExibirActionPerformed
 
-//    StringBuilder sb = new StringBuilder();
     int maiorValor = Integer.MIN_VALUE;
     int menorValor = Integer.MAX_VALUE;
     double soma = 0;
     
     
     for(Integer num : numeros) {
-//       sb.append(num).append(", ");
      
        if(num > maiorValor){
            maiorValor = num;
